@@ -30,9 +30,9 @@ export default {
       strokeWidth: 2, // 描边宽度
       textAlign: 'right', // 对齐方式
       lineHeight: 2, // 行高
-      textBackgroundColor: 'rgb(0, 200, 0)'
+      textBackgroundColor: "rgb(0, 200, 200)"
     });
-    canvas.add(text)
+    canvas.add(text);
   }
 }
 </script>

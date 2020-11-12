@@ -7,6 +7,7 @@
     <router-link to="/path">Path</router-link> |
     <router-link to="/animate">Animate</router-link> |
     <router-link to="/text">Text</router-link> |
+    <router-link to="/group">Group</router-link> |
   </div>
   <router-view />
 </div>

@@ -6,6 +6,7 @@ import Image from '../views/Image.vue';
 import Path from '../views/Path.vue';
 import Animate from '../views/Animate.vue';
 import Text from '../views/Text.vue';
+import Group from '../views/Group.vue';
 
 Vue.use(VueRouter);
 
@@ -39,6 +40,11 @@ const routes = [
 		path: "/Text",
 		name: "Text",
 		component: Text,
+	},
+	{
+		path: "/Group",
+		name: "Group",
+		component: Group,
 	},
 	{
 		path: "/about",
